@@ -15,3 +15,7 @@ body{
     display:flex;
 
 }
+
+input{
+    flex:5;
+}
