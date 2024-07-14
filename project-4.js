@@ -1,3 +1,3 @@
 // variables 
 
-const 
+const addTask = document.getElementById("add-task")
