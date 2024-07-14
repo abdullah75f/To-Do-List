@@ -7,4 +7,6 @@ const inputTask = document.getElementById("input-task");
 
 //Event Listener for Add Button
 
-addTask.addEventListener("click", function())
+addTask.addEventListener("click", function(){
+    let task = document.createElement("div")
+})
