@@ -1,44 +1,42 @@
-body{
-    height:100vh;
-    background:url(2.jpg) ;
-    display:flex;
-    justify-content: center;
-    align-items:center;
+body {
+  height: 100vh;
+  background: url(2.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#add-task-container{
-    width:350px;
-    padding:20px 10px;
-    background:white;
-    border-radius:20px;
-    box-shadow:0 0 3px;
-    display:flex;
-
+#add-task-container {
+  width: 350px;
+  padding: 20px 10px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 0 3px;
+  display: flex;
 }
 
-input{
-    flex:5;
-    margin-right:10px;
-    border-radius:10px;
-    font-size:1.2rem;
-    padding:5px;
-
+input {
+  flex: 5;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 5px;
 }
 
-#add-task{
-    transition:.3s;
-    flex:1;
+#add-task {
+  transition: 0.3s;
+  flex: 1;
 
-    font-size:1.2rem;
-    padding:5px;
+  font-size: 1.2rem;
+  padding: 5px;
 
-    background: white;
-    color:green;
-    border: green solid 2px;
-    border-radius:10px;
+  background: white;
+  color: green;
+  border: green solid 2px;
+  border-radius: 10px;
 }
 
-#add-task:hover{
-    background-color: green;
-    color:white;
+#add-task:hover {
+  background-color: green;
+  color: white;
 }
