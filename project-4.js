@@ -16,4 +16,6 @@ addTask.addEventListener("click", function(){
     task.appendChild(li);
 
     let checkButton = docuement.createElement("button");  
+    checkButton.innerHTML ='<i class="fa-solid fa-check "></i>';
+    checkButton.classList.add("checkTask");
 })
