@@ -14,4 +14,6 @@ addTask.addEventListener("click", function(){
     let li = document.createElement("li");
     li.innertext =`${inputTask.value}`;
     task.appendChild(li);
+
+    let checkButton = docuement.createElement("button");  
 })
