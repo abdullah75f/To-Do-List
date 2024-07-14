@@ -10,4 +10,7 @@ const inputTask = document.getElementById("input-task");
 addTask.addEventListener("click", function(){
     let task = document.createElement("div");
     task.classList.add("task");
+
+    let li =document.createElement("li");
+    
 })
