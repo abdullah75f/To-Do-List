@@ -28,7 +28,9 @@ addTask.addEventListener("click", function(){
 
     if(inputTask.value === ""){
         alert("please Enter a Task ");
-
+    }
+    else{
+        taskContainer
     }
 
 
