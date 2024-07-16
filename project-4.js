@@ -26,5 +26,10 @@ addTask.addEventListener("click", function(){
     deleteButton.classList.add("deleteTask");
     task.appendChild(deleteButton);
 
-    
+    if(inputTask.value === ""){
+        alert("please Enter a Task ");
+
+    }
+
+
 })
