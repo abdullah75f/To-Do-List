@@ -72,3 +72,11 @@ input {
   background-color: white;
   cursor:pointer;
 }
+
+.task .checkTask{
+  color:orange;
+  margin-right:5px;
+  border: solid 2px orange;
+  font-size:1.5rem;
+
+}
