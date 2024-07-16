@@ -25,4 +25,6 @@ addTask.addEventListener("click", function(){
     deleteButton.innerHTML ='<i class="fa-solid fa-check "></i>';
     deleteButton.classList.add("deleteTask");
     task.appendChild(deleteButton);
+
+    
 })
