@@ -19,4 +19,10 @@ addTask.addEventListener("click", function(){
     let checkButton = docuement.createElement("button");  
     checkButton.innerHTML ='<i class="fa-solid fa-check "></i>';
     checkButton.classList.add("checkTask");
+    task.appendChild(checkButton);
+
+    let deleteButton = docuement.createElement("button");  
+    deleteButton.innerHTML ='<i class="fa-solid fa-check "></i>';
+    deleteButton.classList.add("deleteTask");
+    task.appendChild(deleteButton);
 })
