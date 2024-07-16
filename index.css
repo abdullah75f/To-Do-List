@@ -78,5 +78,23 @@ input {
   margin-right:5px;
   border: solid 2px orange;
   font-size:1.5rem;
+}
 
+.task .checkTask:hover{
+  background-color:orange;
+  color:white;
+  
+}
+
+
+.task .deleteTask{
+  color:red;
+  border: solid 2px red;
+  font-size:1.5rem;
+}
+
+.task .deleteTask:hover{
+  background-color:red;
+  color:white;
+  
 }
