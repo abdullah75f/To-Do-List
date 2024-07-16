@@ -13,16 +13,16 @@ addTask.addEventListener("click", function(){
     task.classList.add("task");
 
     let li = document.createElement("li");
-    li.innertext =`${inputTask.value}`;
+    li.innerText =`${inputTask.value}`;
     task.appendChild(li);
 
-    let checkButton = docuement.createElement("button");  
+    let checkButton = document.createElement("button");  
     checkButton.innerHTML ='<i class="fa-solid fa-check "></i>';
     checkButton.classList.add("checkTask");
     task.appendChild(checkButton);
 
-    let deleteButton = docuement.createElement("button");  
-    deleteButton.innerHTML ='<i class="fa-solid fa-check "></i>';
+    let deleteButton = document.createElement("button");  
+    deleteButton.innerHTML ='<i class="fa-solid fa-trash-can "></i>';
     deleteButton.classList.add("deleteTask");
     task.appendChild(deleteButton);
 
@@ -32,4 +32,4 @@ addTask.addEventListener("click", function(){
     }
 
 
-})
+});
