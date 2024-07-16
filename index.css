@@ -60,4 +60,6 @@ input {
 .task li {
   list-style: none;
   flex: 4;
+  padding:5px;
+  font-size:1.2rem;
 }
