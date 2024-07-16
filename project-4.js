@@ -34,4 +34,7 @@ addTask.addEventListener("click", function(){
     }
 
 
+    inputTask.value = "";
+
+
 });
