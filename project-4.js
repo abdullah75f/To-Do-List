@@ -30,7 +30,7 @@ addTask.addEventListener("click", function(){
         alert("please Enter a Task ");
     }
     else{
-        taskContainer
+        taskContainer.appendChild(task);
     }
 
 
